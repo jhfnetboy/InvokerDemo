@@ -22,10 +22,10 @@ We will build a security and easy flow for EOA accounts to get gas sponsors seam
   ```
   
   ```
-+ Generate the proof and store it in every community node.
++ Generate the proof and store it in every CommunityNode.
 
 ## Security settings
-+ Set your CommuNode confirming number, default is 3.
++ Set your CommunityNode confirming number, default is 3.
 + It means if three nodes validate that your transaction signature is right, the transaction was permitted.
 + If you set a D2FA, you must use your passkey to sign the data.
 
@@ -34,7 +34,7 @@ We will build a security and easy flow for EOA accounts to get gas sponsors seam
 + Use any wallet with AirAccount SDK or AirAccount homepage, log in with your Email or passkey.
 + Search your friends in the ENS list, input 20, and click send.
 + It depends on your D2FA security setting, pop up a window to scan.
-+ The Community node will get the transaction data and spread it to the node network. + If the BLS signature is enough, send it to RPC nodes with a gas sponsorship.
++ The CommunityNode will get the transaction data and spread it to the node network. + If the BLS signature is enough, send it to RPC nodes with a gas sponsorship.
 + The transaction will be build into blocks on blockchain.
 
 ## Extensions
